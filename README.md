@@ -2,6 +2,9 @@
 
 A fun project that rewards household members with Solana tokens when they unload the dishwasher! (Can of course be for anything else as well) Built for Raspberry Pi with display, buttons, and MP3 audio feedback.
 
+![IMG_9235](https://github.com/user-attachments/assets/dacd24cc-775c-4dd7-95cf-5c43074b887a)
+
+
 ## 🎯 Overview
 
 This project creates a custom Solana token and deploys it to a Raspberry Pi with:
@@ -21,6 +24,7 @@ This project creates a custom Solana token and deploys it to a Raspberry Pi with
 - MP3-TF-16P audio module (https://www.amazon.de/dp/B0DRGCC1M6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_2)
 - 2 push buttons (https://www.amazon.de/dp/B07WPBQXJ9?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1 )
 - Micro SD card with MP3 files
+- As a power solution you can either plug it into a power plug or use a PiSugar2 or a Geekworm X306 V1.3 Ultra-Thin UPS Shield for Raspberry Pi Zero 2. Both work great with the RaspberryPi Zero 2WH 
 
 # Creating the token
 
@@ -161,10 +165,18 @@ SD Card Root/
 
 ### Connect hardware
 
+<img width="1348" alt="image" src="https://github.com/user-attachments/assets/cab48154-ee3d-4ed2-b9d5-a046f316b50f" />
+
+
 - Connect ST7789 display to GPIO pins (D5, D24, D25) See [README_ST7789.md](README_ST7789.md) for more information.
 - Connect buttons to GPIO 17 and 18
 - Connect MP3 module to serial port See [README_MP3.md](README_MP3.md) for more information.
 - Insert SD card with MP3 files
+
+When everything is connected it should look somewhat like this: 
+
+![IMG_9236](https://github.com/user-attachments/assets/cb2ef603-76bb-4a30-9198-4ed44e05a26d)
+
 
 ### Run the script
 
