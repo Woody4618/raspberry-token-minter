@@ -1,0 +1,34 @@
+{
+  "name": "raspberry-token-minter",
+  "version": "1.0.0",
+  "description": "A script to mint SPL tokens with metadata on Solana",
+  "main": "mint-token-with-metadata.js",
+  "type": "module",
+  "scripts": {
+    "create-mint": "node src/mint-token-with-metadata.js",
+    "upload-image-and-metadata": "node src/upload-image-and-metadata.js",
+    "simple-mint": "node src/simple-mint.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.11",
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/mpl-core": "^0.0.1-beta.0",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana-developers/helpers": "^0.0.9"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "solana",
+    "spl-token",
+    "blockchain",
+    "cryptocurrency",
+    "metadata",
+    "metaplex",
+    "umi"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
