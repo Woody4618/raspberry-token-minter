@@ -18,6 +18,9 @@ A Python script to control the MP3-TF-16P chip via UART to play MP3 files from a
 MP3-TF-16P: [DFPlayer Mini](https://www.amazon.de/dp/B0DRGCC1M6) (also known as DFPlayer Mini)
 Speaker: [3W 8Ω](https://www.amazon.de/Lautsprecher-JST-PH2-0-Schnittstelle-Raspberry-Elektronischer/dp/B08QFTYB9Z)
 
+<img width="1374" height="552" alt="image" src="https://github.com/user-attachments/assets/29f43b6c-b091-4558-bcc1-22cff8d4ab55" />
+
+
 ### Wiring Diagram
 
 ```
