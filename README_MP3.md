@@ -87,7 +87,7 @@ Also connect your 3W speaker to the speaker output of the MP3-TF-16P.
 from mp3_player import MP3Player
 
 # Initialize player
-player = MP3Player(port='/dev/ttyUSB0')
+player = MP3Player(port='/dev/serial0')
 
 # Connect
 if player.connect():
