@@ -85,17 +85,20 @@ Also connect your 3W speaker to the speaker output of the MP3-TF-16P.
 
 ```python
 from mp3_player import MP3Player
+import time 
 
 # Initialize player
 player = MP3Player(port='/dev/serial0')
 
 # Connect
 if player.connect():
+    # Set volume
+    player.set_volume(20)
+
     # Play track 1
     player.play_track(1)
 
-    # Set volume
-    player.set_volume(20)
+    time.sleep(5.0)
 
     # Stop
     player.stop()
